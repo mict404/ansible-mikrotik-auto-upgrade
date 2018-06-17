@@ -1,6 +1,6 @@
 {
-/system identity set name="ansible-mikrotik-auto-upgrade"
-:put ("Hello World, welcome to ".[/system identity get name]." Repository")
+/system identity set name="ansible-mikrotik-auto-upgrade";
+:put ("Hello World, welcome to ".[/system identity get name]." Repository");
 }
 
 Run ansible-mikrotik-auto-upgrade.sh one by one (each new command are separated by new line :D) don't run with:
